@@ -8,7 +8,7 @@ class Grammar {
 
     public Grammar(String id) {
         this.id = id;
-        this.rules = new LinkedHashMap<>(); // Запазваме реда на добавяне на правилата
+        this.rules = new LinkedHashMap<>();
     }
 
     public String getId() {
@@ -27,3 +27,4 @@ class Grammar {
         rules.remove(number);
     }
 }
+//second commit
